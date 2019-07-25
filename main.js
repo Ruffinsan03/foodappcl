@@ -15,6 +15,7 @@ var menu = {"Fries": 10,
              "Pizza": 29, 
              "Coke": 18}
 button.addEventListener("click", function(){
+
 var customerOrder = input.value;
 var itemPair = customerOrder.split(", ");
 for(var i = 0; i < itemPair.length; i++){
